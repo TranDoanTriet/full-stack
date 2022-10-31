@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').config(); // để dùng câu lệnh process.evn
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
